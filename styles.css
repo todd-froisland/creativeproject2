@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #FFFDF0;
+  height: 50px;
+  align-items: center;
+}
+.header-object {
+  margin-left: 30px;
+  border-radius: 5px;
+  width: 75px;
+}
+.body {
+  background-image: url("fireworks.jpg");
+  opacity: 1.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+hr {
+  width: 400px;
+}
+.top-spacing {
+  height: 70px;
+  width: 100%;
+}
+.input {
+  padding-top: 50px;
+  background: rgba(50, 50, 50, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 100px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-bottom: 50px;
+}
+.input-object {
+  align-items: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size:20px;
+  align-items: center;
+  text-align: center;
+}
+.results {
+  background: rgba(100, 100, 100, 0.9);
+  display: flex;
+  height: 500px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+#results-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.4);
+  height: 250px;
+  font-size: 50px;
+  margin-left: 75px;
+  text-align: center;
+  justify-content: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 460px;
+  padding: 20px;
+}
+#results-code {
+  display: flex;
+  color: white;
+  background: rgba(240, 0, 0, 0.5);
+  font-size: 75px;
+  padding: 50px;
+  border-radius: 25px;
+}
+#holiday-list {
+  margin-top: 100px;
+  width: 500px;
+  height: 550px;
+  background:  rgba(255, 0, 0, 0.4);
+  margin-left: 100px;
+  margin-right: 50px;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.spacing-bottom {
+  height: 400px;
+}
+footer {
+  background-color: #;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+  font-family: sans-serif;
+
+}
+.footer-object {
+  margin: 10px;
+  font-size: 15px;
+}
+#country-Input {
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: serif;
+  text-align: center;
+  border: none;
+}
+#year-Input {
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: serif;
+  text-align: center;
+  border: none;
+}
+#country-submit {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FF6652;
+}
+#country-submit:hover {
+  background-color: white;
+}
+
+.input-object a:before {
+  color: white;
+}
+.input-object a:active {
+  color: white;
+}
+.input-object a:after {
+  color: red;
+}
